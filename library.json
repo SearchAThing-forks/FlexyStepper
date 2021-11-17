@@ -1,0 +1,106 @@
+{
+    "name": "iot-flexy-stepper",
+    "version": "1.1.0",
+    "description": "fork of FlexyStepper by S. Reifel ; Stepper motor control library for Arduino supporting in-motion changes.",
+    "keywords": "lcd,rotary,menu",
+    "authors": [
+        {
+            "name": "Lorenzo Delana",
+            "email": "lorenzo.delana@gmail.com",
+            "url": "https://github.com/SearchAThing-forks/FlexyStepper"
+        },
+        {
+            "name": "S. Reifel",
+            "url": "https://github.com/Stan-Reifel/FlexyStepper"
+        }
+    ],
+    "license": "MIT",
+    "frameworks": [
+        "arduino"
+    ],
+    "platforms": [
+        "ststm32"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SearchAThing-forks/FlexyStepper.git"
+    },
+    "examples": [
+        {
+            "name": "example1",
+            "base": "examples/Example1_BasicStepper",
+            "files": [
+                "Example1_BasicStepper.ino"
+            ]
+        },
+        {
+            "name": "example2",
+            "base": "examples/Example2_AbsoluteMoves",
+            "files": [
+                "Example2_AbsoluteMoves.ino"
+            ]
+        },
+        {
+            "name": "example3",
+            "base": "examples/Example3_UsingUnitsOfRotationInsteadOfSteps",
+            "files": [
+                "Example3_UsingUnitsOfRotationInsteadOfSteps.ino"
+            ]
+        },
+        {
+            "name": "example4",
+            "base": "examples/Example4_UsingUnitsOfMillimetersInsteadOfSteps",
+            "files": [
+                "Example4_UsingUnitsOfMillimetersInsteadOfSteps.ino"
+            ]
+        },
+        {
+            "name": "example5",
+            "base": "examples/Example5_HomingWithALimitSwitch",
+            "files": [
+                "Example5_HomingWithALimitSwitch.ino"
+            ]
+        },
+        {
+            "name": "example6",
+            "base": "examples/Example6_MovingTwoMotorsAtOnce",
+            "files": [
+                "Example6_MovingTwoMotorsAtOnce.ino"
+            ]
+        },
+        {
+            "name": "example7",
+            "base": "examples/Example7_MovingWhileDoingOtherThingsToo",
+            "files": [
+                "Example7_MovingWhileDoingOtherThingsToo.ino"
+            ]
+        },
+        {
+            "name": "example8",
+            "base": "examples/Example8_ChangingSpeedAndPositionInMotion",
+            "files": [
+                "Example8_ChangingSpeedAndPositionInMotion.ino"
+            ]
+        },
+        {
+            "name": "example9",
+            "base": "examples/Example9_HowFastCanAStepperRotate",
+            "files": [
+                "Example9_HowFastCanAStepperRotate.ino"
+            ]
+        },
+        {
+            "name": "example10",
+            "base": "examples/Example10_CNC_V3_Shield",
+            "files": [
+                "Example10_CNC_V3_Shield.ino"
+            ]
+        }
+    ],
+    "dependencies": {},
+    "export": {
+        "exclude": [
+            "src/debug-main.cpp"
+        ]
+    }
+}
