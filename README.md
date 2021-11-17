@@ -17,7 +17,7 @@ For documentation and a hookup guide, go to:
 
 ​    https://github.com/Stan-Reifel/FlexyStepper
 
-[API autogen](data/api/index_classes.md)
+[API autogen](data/api/Classes/class_flexy_stepper.md#flexystepper)
 
 ## License:
 Copyright (c) 2018 S. Reifel & Co.   -   Licensed under the MIT license.
