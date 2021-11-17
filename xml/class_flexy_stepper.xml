@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="107" column="8" bodyfile="include/FlexyStepper.h" bodystart="107" bodyend="-1"/>
+        <location file="include/FlexyStepper.h" line="350" column="8" bodyfile="include/FlexyStepper.h" bodystart="350" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_flexy_stepper_1a3f66a5647dab17748f337ee56221511d" prot="private" static="no" mutable="no">
         <type>byte</type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="108" column="8" bodyfile="include/FlexyStepper.h" bodystart="108" bodyend="-1"/>
+        <location file="include/FlexyStepper.h" line="351" column="8" bodyfile="include/FlexyStepper.h" bodystart="351" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_flexy_stepper_1a8654f5419c264b946945fd4c7a78133d" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="109" column="9" bodyfile="include/FlexyStepper.h" bodystart="109" bodyend="-1"/>
+        <location file="include/FlexyStepper.h" line="352" column="9" bodyfile="include/FlexyStepper.h" bodystart="352" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_flexy_stepper_1a43665cdac892a8d965eb53fb56123dae" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="110" column="9" bodyfile="include/FlexyStepper.h" bodystart="110" bodyend="-1"/>
+        <location file="include/FlexyStepper.h" line="353" column="9" bodyfile="include/FlexyStepper.h" bodystart="353" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_flexy_stepper_1a378fc020171366dde251bec8c6fd71c1" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="111" column="7" bodyfile="include/FlexyStepper.h" bodystart="111" bodyend="-1"/>
+        <location file="include/FlexyStepper.h" line="354" column="7" bodyfile="include/FlexyStepper.h" bodystart="354" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_flexy_stepper_1af72cb8f9511734c2001e33985f5c3ae1" prot="private" static="no" mutable="no">
         <type>long</type>
@@ -80,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="112" column="8" bodyfile="include/FlexyStepper.h" bodystart="112" bodyend="-1"/>
+        <location file="include/FlexyStepper.h" line="355" column="8" bodyfile="include/FlexyStepper.h" bodystart="355" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_flexy_stepper_1abffc5e61bc4fc07f73709e9094411af7" prot="private" static="no" mutable="no">
         <type>long</type>
@@ -93,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="113" column="8" bodyfile="include/FlexyStepper.h" bodystart="113" bodyend="-1"/>
+        <location file="include/FlexyStepper.h" line="356" column="8" bodyfile="include/FlexyStepper.h" bodystart="356" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_flexy_stepper_1a925d7f8d3740589ca501446aaecf0b61" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -106,7 +106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="114" column="9" bodyfile="include/FlexyStepper.h" bodystart="114" bodyend="-1"/>
+        <location file="include/FlexyStepper.h" line="357" column="9" bodyfile="include/FlexyStepper.h" bodystart="357" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_flexy_stepper_1acd0d5eec8cf9ac26c71658a5c479ffc8" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -119,7 +119,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="115" column="9" bodyfile="include/FlexyStepper.h" bodystart="115" bodyend="-1"/>
+        <location file="include/FlexyStepper.h" line="358" column="9" bodyfile="include/FlexyStepper.h" bodystart="358" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_flexy_stepper_1ac9516c07e0393b2526ea0528bf3dc986" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -132,7 +132,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="116" column="9" bodyfile="include/FlexyStepper.h" bodystart="116" bodyend="-1"/>
+        <location file="include/FlexyStepper.h" line="359" column="9" bodyfile="include/FlexyStepper.h" bodystart="359" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_flexy_stepper_1a653c5e909e30b3d5705bf2baab4bbb66" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -145,7 +145,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="117" column="9" bodyfile="include/FlexyStepper.h" bodystart="117" bodyend="-1"/>
+        <location file="include/FlexyStepper.h" line="360" column="9" bodyfile="include/FlexyStepper.h" bodystart="360" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_flexy_stepper_1ad696da06be25d1d350b974addba2c313" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -158,7 +158,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="118" column="9" bodyfile="include/FlexyStepper.h" bodystart="118" bodyend="-1"/>
+        <location file="include/FlexyStepper.h" line="361" column="9" bodyfile="include/FlexyStepper.h" bodystart="361" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_flexy_stepper_1ac1c0ce68b5d1376a436e6b675c20ca51" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -171,7 +171,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="119" column="9" bodyfile="include/FlexyStepper.h" bodystart="119" bodyend="-1"/>
+        <location file="include/FlexyStepper.h" line="362" column="9" bodyfile="include/FlexyStepper.h" bodystart="362" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_flexy_stepper_1a715f4532b818d7f06ede1512c99cdf23" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -184,7 +184,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="120" column="9" bodyfile="include/FlexyStepper.h" bodystart="120" bodyend="-1"/>
+        <location file="include/FlexyStepper.h" line="363" column="9" bodyfile="include/FlexyStepper.h" bodystart="363" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_flexy_stepper_1a06c592304467438ba65610213bf7cf8a" prot="private" static="no" mutable="no">
         <type>unsigned long</type>
@@ -197,7 +197,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="121" column="17" bodyfile="include/FlexyStepper.h" bodystart="121" bodyend="-1"/>
+        <location file="include/FlexyStepper.h" line="364" column="17" bodyfile="include/FlexyStepper.h" bodystart="364" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_flexy_stepper_1a0114ffeaa07571f2f0b44851885ddd53" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -210,7 +210,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="122" column="9" bodyfile="include/FlexyStepper.h" bodystart="122" bodyend="-1"/>
+        <location file="include/FlexyStepper.h" line="365" column="9" bodyfile="include/FlexyStepper.h" bodystart="365" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -220,12 +220,14 @@
         <argsstring>()</argsstring>
         <name>FlexyStepper</name>
         <briefdescription>
+<para>constructor for the stepper class <linebreak/>
+ </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="47" column="3"/>
+        <location file="include/FlexyStepper.h" line="51" column="3"/>
       </memberdef>
       <memberdef kind="function" id="class_flexy_stepper_1af6c33620f1e77c486a88f84a1b553dd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -273,7 +275,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="57" column="8"/>
+        <location file="include/FlexyStepper.h" line="61" column="8"/>
       </memberdef>
       <memberdef kind="function" id="class_flexy_stepper_1a087d71ec57d6e3d49f359577f8f0ccc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -285,12 +287,13 @@
           <declname>motorStepPerMillimeter</declname>
         </param>
         <briefdescription>
+<para>set the number of steps the motor has per millimeters </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="59" column="8"/>
+        <location file="include/FlexyStepper.h" line="66" column="8"/>
       </memberdef>
       <memberdef kind="function" id="class_flexy_stepper_1adfcc2935443d15ef0a5ae2cf5b815846" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -298,12 +301,16 @@
         <argsstring>()</argsstring>
         <name>getCurrentPositionInMillimeters</name>
         <briefdescription>
+<para>get the current position of the motor in millimeters, this functions is updated while the motor moves </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>a signed motor position in millimeters returned </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="60" column="9"/>
+        <location file="include/FlexyStepper.h" line="73" column="9"/>
       </memberdef>
       <memberdef kind="function" id="class_flexy_stepper_1ac16e23b86de2968bae41089ce2b5481a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -315,29 +322,13 @@
           <declname>currentPositionInMillimeters</declname>
         </param>
         <briefdescription>
+<para>set the current position of the motor in millimeters, this does not move the motor </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="61" column="8"/>
-      </memberdef>
-      <memberdef kind="function" id="class_flexy_stepper_1a05a368cbf732c9f97219c83b5c298521" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void FlexyStepper::setCurrentPositionInMillimeter</definition>
-        <argsstring>(float currentPositionInMillimeter)</argsstring>
-        <name>setCurrentPositionInMillimeter</name>
-        <param>
-          <type>float</type>
-          <declname>currentPositionInMillimeter</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="include/FlexyStepper.h" line="62" column="8"/>
+        <location file="include/FlexyStepper.h" line="78" column="8"/>
       </memberdef>
       <memberdef kind="function" id="class_flexy_stepper_1aed904cf0863f4982035e5343531dc5c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -349,12 +340,23 @@
           <declname>speedInMillimetersPerSecond</declname>
         </param>
         <briefdescription>
+<para>set the maximum speed, units in millimeters/second, this is the maximum speed reached while accelerating </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>speedInMillimetersPerSecond</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>speed to accelerate up to, units in millimeters/second </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="63" column="8"/>
+        <location file="include/FlexyStepper.h" line="85" column="8"/>
       </memberdef>
       <memberdef kind="function" id="class_flexy_stepper_1aef8836a5254879ab398ec114a651dac6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -366,12 +368,23 @@
           <declname>accelerationInMillimetersPerSecondPerSecond</declname>
         </param>
         <briefdescription>
+<para>set the rate of acceleration, units in millimeters/second/second </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>accelerationInMillimetersPerSecondPerSecond</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>accelerationInMillimetersPerSecondPerSecond = rate of acceleration, units in millimeters/second/second </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="64" column="8"/>
+        <location file="include/FlexyStepper.h" line="92" column="8"/>
       </memberdef>
       <memberdef kind="function" id="class_flexy_stepper_1aeae0996f9f6c6a0ca07e7e00b73c0bf1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -395,12 +408,49 @@
           <declname>homeLimitSwitchPin</declname>
         </param>
         <briefdescription>
+<para>home the motor by moving until the homing sensor is activated, then set the position to zero, with units in millimeters </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>directionTowardHome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>1 to move in a positive direction, -1 to move in a negative directions </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>speedInMillimetersPerSecond</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>speed to accelerate up to while moving toward home, units in millimeters/second </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>maxDistanceToMoveInMillimeters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>unsigned maximum distance to move toward home before giving up </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>homeLimitSwitchPin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pin number of the home switch, switch should be configured to go low when at home </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true returned if successful, else false </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="65" column="8"/>
+        <location file="include/FlexyStepper.h" line="103" column="8"/>
       </memberdef>
       <memberdef kind="function" id="class_flexy_stepper_1a0d9905939ac32f967dedc3c35889ab6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -412,12 +462,23 @@
           <declname>distanceToMoveInMillimeters</declname>
         </param>
         <briefdescription>
+<para>move relative to the current position, units are in millimeters, this function does not return until the move is complete </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>distanceToMoveInMillimeters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>signed distance to move relative to the current position in millimeters </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="66" column="8"/>
+        <location file="include/FlexyStepper.h" line="110" column="8"/>
       </memberdef>
       <memberdef kind="function" id="class_flexy_stepper_1adcdbbef15aeb837444feb4333daa8069" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -429,12 +490,23 @@
           <declname>distanceToMoveInMillimeters</declname>
         </param>
         <briefdescription>
+<para>setup a move relative to the current position, units are in millimeters, no motion occurs until processMove() is called </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>distanceToMoveInMillimeters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>signed distance to move relative to the current position in millimeters </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="67" column="8"/>
+        <location file="include/FlexyStepper.h" line="117" column="8"/>
       </memberdef>
       <memberdef kind="function" id="class_flexy_stepper_1a88b4e5393fd3e1e3ec3a99e9540431b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -446,12 +518,23 @@
           <declname>absolutePositionToMoveToInMillimeters</declname>
         </param>
         <briefdescription>
+<para>move to the given absolute position, units are in millimeters, this function does not return until the move is complete </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>absolutePositionToMoveToInMillimeters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>signed absolute position to move to in units of millimeters </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="68" column="8"/>
+        <location file="include/FlexyStepper.h" line="124" column="8"/>
       </memberdef>
       <memberdef kind="function" id="class_flexy_stepper_1af9d9dfbd1616a38cc917c0bd304a5791" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -463,12 +546,23 @@
           <declname>absolutePositionToMoveToInMillimeters</declname>
         </param>
         <briefdescription>
+<para>setup a move, units are in millimeters, no motion occurs until processMove() is called </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>absolutePositionToMoveToInMillimeters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>signed absolute position to move to in units of millimeters </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="69" column="8"/>
+        <location file="include/FlexyStepper.h" line="131" column="8"/>
       </memberdef>
       <memberdef kind="function" id="class_flexy_stepper_1ad28291bdc39fc8af60df2cca6f2e2bb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -476,12 +570,17 @@
         <argsstring>()</argsstring>
         <name>getCurrentVelocityInMillimetersPerSecond</name>
         <briefdescription>
+<para>Get the current velocity of the motor in millimeters/second. </para>
         </briefdescription>
         <detaileddescription>
+<para>This functions is updated while it accelerates up and down in speed. This is not the desired speed, but the speed the motor should be moving at the time the function is called. This is a signed value and is negative when the motor is moving backwards. Note: This speed will be incorrect if the desired velocity is set faster than this library can generate steps, or if the load on the motor is too great for the amount of torque that it can generate.</para>
+<para><simplesect kind="return"><para>float velocity speed in steps per second returned, signed </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="70" column="9"/>
+        <location file="include/FlexyStepper.h" line="145" column="9"/>
       </memberdef>
       <memberdef kind="function" id="class_flexy_stepper_1a5e9c1c1590e10d850107312a55cab549" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -493,12 +592,23 @@
           <declname>motorStepPerRevolution</declname>
         </param>
         <briefdescription>
+<para>set the number of steps the motor has per revolution </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>motorStepPerRevolution</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="72" column="8"/>
+        <location file="include/FlexyStepper.h" line="152" column="8"/>
       </memberdef>
       <memberdef kind="function" id="class_flexy_stepper_1acb42cd920db4da1147882cb63174e44a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -510,12 +620,13 @@
           <declname>currentPositionInRevolutions</declname>
         </param>
         <briefdescription>
+<para>set the current position of the motor in revolutions, this does not move the motor </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="73" column="8"/>
+        <location file="include/FlexyStepper.h" line="157" column="8"/>
       </memberdef>
       <memberdef kind="function" id="class_flexy_stepper_1a52b120fff3f441aad156dea34d7b483d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -523,12 +634,23 @@
         <argsstring>()</argsstring>
         <name>getCurrentPositionInRevolutions</name>
         <briefdescription>
+<para>get the current position of the motor in revolutions, this functions is updated while the motor moves </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>currentPositionInRevolutions</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a signed motor position in revolutions returned </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="74" column="9"/>
+        <location file="include/FlexyStepper.h" line="164" column="9"/>
       </memberdef>
       <memberdef kind="function" id="class_flexy_stepper_1a410a35d872bc80f787e62adc283171b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -540,12 +662,23 @@
           <declname>speedInRevolutionsPerSecond</declname>
         </param>
         <briefdescription>
+<para>set the maximum speed, units in revolutions/second, this is the maximum speed reached while accelerating </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>speedInRevolutionsPerSecond</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>speed to accelerate up to, units in revolutions/second </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="75" column="8"/>
+        <location file="include/FlexyStepper.h" line="171" column="8"/>
       </memberdef>
       <memberdef kind="function" id="class_flexy_stepper_1a19a665365447d04073c03a4508fa1342" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -557,12 +690,23 @@
           <declname>accelerationInRevolutionsPerSecondPerSecond</declname>
         </param>
         <briefdescription>
+<para>set the rate of acceleration, units in revolutions/second/second </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>accelerationInRevolutionsPerSecondPerSecond</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>rate of acceleration, units in revolutions/second/second </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="76" column="8"/>
+        <location file="include/FlexyStepper.h" line="178" column="8"/>
       </memberdef>
       <memberdef kind="function" id="class_flexy_stepper_1a7a9584318c9082b272b40d812923ca16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -586,12 +730,49 @@
           <declname>homeLimitSwitchPin</declname>
         </param>
         <briefdescription>
+<para>home the motor by moving until the homing sensor is activated, then set the position to zero, with units in revolutions </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>directionTowardHome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>1 to move in a positive direction, -1 to move in a negative directions </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>speedInRevolutionsPerSecond</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>speed to accelerate up to while moving toward home, units in revolutions/second </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>maxDistanceToMoveInRevolutions</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>unsigned maximum distance to move toward home before giving up </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>homeLimitSwitchPin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pin number of the home switch, switch should be configured to go low when at home </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true returned if successful, else false </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="77" column="8"/>
+        <location file="include/FlexyStepper.h" line="189" column="8"/>
       </memberdef>
       <memberdef kind="function" id="class_flexy_stepper_1a365690aacf505a95a6b9b6e9015ac370" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -603,12 +784,23 @@
           <declname>distanceToMoveInRevolutions</declname>
         </param>
         <briefdescription>
+<para>move relative to the current position, units are in revolutions, this function does not return until the move is complete </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>distanceToMoveInRevolutions</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>signed distance to move relative to the current position in revolutions </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="78" column="8"/>
+        <location file="include/FlexyStepper.h" line="196" column="8"/>
       </memberdef>
       <memberdef kind="function" id="class_flexy_stepper_1abb509c0cca6e467c28c7a7575ae8c907" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -620,12 +812,23 @@
           <declname>distanceToMoveInRevolutions</declname>
         </param>
         <briefdescription>
+<para>setup a move relative to the current position, units are in revolutions, no motion occurs until processMove() is called </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>distanceToMoveInRevolutions</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>signed distance to move relative to the currentposition in revolutions </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="79" column="8"/>
+        <location file="include/FlexyStepper.h" line="203" column="8"/>
       </memberdef>
       <memberdef kind="function" id="class_flexy_stepper_1acd57cc3fda23b8a3c53246f83e2fda8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -637,12 +840,23 @@
           <declname>absolutePositionToMoveToInRevolutions</declname>
         </param>
         <briefdescription>
+<para>move to the given absolute position, units are in revolutions, this function does not return until the move is complete </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>absolutePositionToMoveToInRevolutions</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>signed absolute position to move to in units of revolutions </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="80" column="8"/>
+        <location file="include/FlexyStepper.h" line="210" column="8"/>
       </memberdef>
       <memberdef kind="function" id="class_flexy_stepper_1a13a859436cb2dbdcea76f254ec04198c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -654,12 +868,23 @@
           <declname>absolutePositionToMoveToInRevolutions</declname>
         </param>
         <briefdescription>
+<para>setup a move, units are in revolutions, no motion occurs until processMove() is called </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>absolutePositionToMoveToInRevolutions</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>signed absolute position to move to in units of revolutions </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="81" column="8"/>
+        <location file="include/FlexyStepper.h" line="217" column="8"/>
       </memberdef>
       <memberdef kind="function" id="class_flexy_stepper_1a6a8b2f1efb7fffd1a06f7ef5c7c20ee8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -667,12 +892,17 @@
         <argsstring>()</argsstring>
         <name>getCurrentVelocityInRevolutionsPerSecond</name>
         <briefdescription>
+<para>Get the current velocity of the motor in revolutions/second. </para>
         </briefdescription>
         <detaileddescription>
+<para>This functions is updated while it accelerates up and down in speed. This is not the desired speed, but the speed the motor should be moving at the time the function is called. This is a signed value and is negative when the motor is moving backwards. Note: This speed will be incorrect if the desired velocity is set faster than this library can generate steps, or if the load on the motor is too great for the amount of torque that it can generate.</para>
+<para><simplesect kind="return"><para>velocity speed in steps per second returned, signed </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="82" column="9"/>
+        <location file="include/FlexyStepper.h" line="231" column="9"/>
       </memberdef>
       <memberdef kind="function" id="class_flexy_stepper_1affc021dcc46795a5c4fe0ef2355166f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -684,12 +914,25 @@
           <declname>currentPositionInSteps</declname>
         </param>
         <briefdescription>
+<para>set the current position of the motor in steps, this does not move the motor </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="remark"><para>Note: This function should only be called when the motor is stopped</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>currentPositionInSteps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new position of the motor in steps </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="84" column="8"/>
+        <location file="include/FlexyStepper.h" line="240" column="8"/>
       </memberdef>
       <memberdef kind="function" id="class_flexy_stepper_1ad0a90854d5f2a17ad990b6798801ec8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>long</type>
@@ -697,12 +940,16 @@
         <argsstring>()</argsstring>
         <name>getCurrentPositionInSteps</name>
         <briefdescription>
+<para>get the current position of the motor in steps, this functions is updated while the motor moves </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>a signed motor position in steps returned </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="85" column="8"/>
+        <location file="include/FlexyStepper.h" line="247" column="8"/>
       </memberdef>
       <memberdef kind="function" id="class_flexy_stepper_1a48ae917d1087bf29e3abe08b6bc64dd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -714,12 +961,23 @@
           <declname>speedInStepsPerSecond</declname>
         </param>
         <briefdescription>
+<para>set the maximum speed, units in steps/second, this is the maximum speed reached while accelerating </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>speedInStepsPerSecond</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>speed to accelerate up to, units in steps/second </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="86" column="8"/>
+        <location file="include/FlexyStepper.h" line="254" column="8"/>
       </memberdef>
       <memberdef kind="function" id="class_flexy_stepper_1a73a84ba6d5d5f26ac44af51c10b527d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -731,12 +989,23 @@
           <declname>accelerationInStepsPerSecondPerSecond</declname>
         </param>
         <briefdescription>
+<para>set the rate of acceleration, units in steps/second/second </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>accelerationInStepsPerSecondPerSecond</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>rate of acceleration, units in steps/second/second </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="87" column="8"/>
+        <location file="include/FlexyStepper.h" line="261" column="8"/>
       </memberdef>
       <memberdef kind="function" id="class_flexy_stepper_1a0c7a8c45bed343953fd1aedab5e9b967" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -760,12 +1029,49 @@
           <declname>homeSwitchPin</declname>
         </param>
         <briefdescription>
+<para>home the motor by moving until the homing sensor is activated, then set the position to zero with units in steps </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>directionTowardHome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>1 to move in a positive direction, -1 to move in a negative directions </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>speedInStepsPerSecond</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>speed to accelerate up to while moving toward home, units in steps/second </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>maxDistanceToMoveInSteps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>unsigned maximum distance to move toward home before giving up </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>homeSwitchPin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pin number of the home switch, switch should be configured to go low when at home </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true returned if successful, else false </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="88" column="8"/>
+        <location file="include/FlexyStepper.h" line="272" column="8"/>
       </memberdef>
       <memberdef kind="function" id="class_flexy_stepper_1a3640d5d166bb9708dade5f9d272fe94b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -777,12 +1083,23 @@
           <declname>distanceToMoveInSteps</declname>
         </param>
         <briefdescription>
+<para>move relative to the current position, units are in steps, this function does not return until the move is complete </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>distanceToMoveInSteps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>signed distance to move relative to the current position in steps </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="89" column="8"/>
+        <location file="include/FlexyStepper.h" line="279" column="8"/>
       </memberdef>
       <memberdef kind="function" id="class_flexy_stepper_1a0ea80b3b48750e9a9b94509a9a1b403c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -794,12 +1111,23 @@
           <declname>distanceToMoveInSteps</declname>
         </param>
         <briefdescription>
+<para>setup a move relative to the current position, units are in steps, no motion occurs until processMove() is called </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>distanceToMoveInSteps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>signed distance to move relative to the current positionin steps </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="90" column="8"/>
+        <location file="include/FlexyStepper.h" line="286" column="8"/>
       </memberdef>
       <memberdef kind="function" id="class_flexy_stepper_1a5f57fd780d0ff7c56647aa5f1c8e72de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -811,12 +1139,23 @@
           <declname>absolutePositionToMoveToInSteps</declname>
         </param>
         <briefdescription>
+<para>move to the given absolute position, units are in steps, this function does not return until the move is complete </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>absolutePositionToMoveToInSteps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>signed absolute position to move to in unitsof steps </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="91" column="8"/>
+        <location file="include/FlexyStepper.h" line="293" column="8"/>
       </memberdef>
       <memberdef kind="function" id="class_flexy_stepper_1a542001deb1b0b972414a51298f70457e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -828,12 +1167,23 @@
           <declname>absolutePositionToMoveToInSteps</declname>
         </param>
         <briefdescription>
+<para>setup a move, units are in steps, no motion occurs until processMove() is called </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>absolutePositionToMoveToInSteps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>signed absolute position to move to in units of steps </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="92" column="8"/>
+        <location file="include/FlexyStepper.h" line="300" column="8"/>
       </memberdef>
       <memberdef kind="function" id="class_flexy_stepper_1ae83ef9efabc509d7b2baf43935b647b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -841,12 +1191,17 @@
         <argsstring>()</argsstring>
         <name>setTargetPositionToStop</name>
         <briefdescription>
+<para>setup a &quot;Stop&quot; to begin the process of decelerating from the current velocity to zero, decelerating requires calls to processMove() until the move is complete </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="remark"><para>Note: This function can be used to stop a motion initiated in units of steps or revolutions <linebreak/>
+ </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="93" column="8"/>
+        <location file="include/FlexyStepper.h" line="307" column="8"/>
       </memberdef>
       <memberdef kind="function" id="class_flexy_stepper_1a29374db25d5bb5714c319d5c57e3e2e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -854,12 +1209,16 @@
         <argsstring>()</argsstring>
         <name>motionComplete</name>
         <briefdescription>
+<para>check if the motor has competed its move to the target position </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>true returned if the stepper is at the target position </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="94" column="8"/>
+        <location file="include/FlexyStepper.h" line="314" column="8"/>
       </memberdef>
       <memberdef kind="function" id="class_flexy_stepper_1adcafa58beae47192cd7761d9b5a73c53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -867,12 +1226,17 @@
         <argsstring>()</argsstring>
         <name>getCurrentVelocityInStepsPerSecond</name>
         <briefdescription>
+<para>Get the current velocity of the motor in steps/second. </para>
         </briefdescription>
         <detaileddescription>
+<para>This functions is updated while it accelerates up and down in speed. This is not the desired speed, but the speed the motor should be moving at the time the function is called. This is a signed value and is negative when the motor is moving backwards. Note: This speed will be incorrect if the desired velocity is set faster than this library can generate steps, or if the load on the motor is too great for the amount of torque that it can generate.</para>
+<para><simplesect kind="return"><para>velocity speed in steps per second returned, signed </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="95" column="9"/>
+        <location file="include/FlexyStepper.h" line="328" column="9"/>
       </memberdef>
       <memberdef kind="function" id="class_flexy_stepper_1af683bb5ea8daf533305c680c0f238977" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -883,12 +1247,16 @@
           <type>void</type>
         </param>
         <briefdescription>
+<para>if it is time, move one step </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>true returned if movement complete, false returned not a final target position yet </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="96" column="8"/>
+        <location file="include/FlexyStepper.h" line="335" column="8"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -898,19 +1266,21 @@
         <argsstring>()</argsstring>
         <name>DeterminePeriodOfNextStep</name>
         <briefdescription>
+<para>determine the period for the next step, either speed up a little, slow down a little or go the same speed <linebreak/>
+ </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/FlexyStepper.h" line="102" column="8"/>
+        <location file="include/FlexyStepper.h" line="345" column="8"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="include/FlexyStepper.h" line="42" column="1" bodyfile="include/FlexyStepper.h" bodystart="41" bodyend="123"/>
+    <location file="include/FlexyStepper.h" line="42" column="1" bodyfile="include/FlexyStepper.h" bodystart="41" bodyend="366"/>
     <listofallmembers>
       <member refid="class_flexy_stepper_1ac9516c07e0393b2526ea0528bf3dc986" prot="private" virt="non-virtual"><scope>FlexyStepper</scope><name>acceleration_InStepsPerSecondPerSecond</name></member>
       <member refid="class_flexy_stepper_1a653c5e909e30b3d5705bf2baab4bbb66" prot="private" virt="non-virtual"><scope>FlexyStepper</scope><name>acceleration_InStepsPerUSPerUS</name></member>
@@ -947,7 +1317,6 @@
       <member refid="class_flexy_stepper_1aef8836a5254879ab398ec114a651dac6" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>setAccelerationInMillimetersPerSecondPerSecond</name></member>
       <member refid="class_flexy_stepper_1a19a665365447d04073c03a4508fa1342" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>setAccelerationInRevolutionsPerSecondPerSecond</name></member>
       <member refid="class_flexy_stepper_1a73a84ba6d5d5f26ac44af51c10b527d0" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>setAccelerationInStepsPerSecondPerSecond</name></member>
-      <member refid="class_flexy_stepper_1a05a368cbf732c9f97219c83b5c298521" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>setCurrentPositionInMillimeter</name></member>
       <member refid="class_flexy_stepper_1ac16e23b86de2968bae41089ce2b5481a" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>setCurrentPositionInMillimeters</name></member>
       <member refid="class_flexy_stepper_1acb42cd920db4da1147882cb63174e44a" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>setCurrentPositionInRevolutions</name></member>
       <member refid="class_flexy_stepper_1affc021dcc46795a5c4fe0ef2355166f3" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>setCurrentPositionInSteps</name></member>

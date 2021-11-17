@@ -22,7 +22,6 @@
     <member refid="class_flexy_stepper_1a087d71ec57d6e3d49f359577f8f0ccc3" kind="function"><name>setStepsPerMillimeter</name></member>
     <member refid="class_flexy_stepper_1adfcc2935443d15ef0a5ae2cf5b815846" kind="function"><name>getCurrentPositionInMillimeters</name></member>
     <member refid="class_flexy_stepper_1ac16e23b86de2968bae41089ce2b5481a" kind="function"><name>setCurrentPositionInMillimeters</name></member>
-    <member refid="class_flexy_stepper_1a05a368cbf732c9f97219c83b5c298521" kind="function"><name>setCurrentPositionInMillimeter</name></member>
     <member refid="class_flexy_stepper_1aed904cf0863f4982035e5343531dc5c9" kind="function"><name>setSpeedInMillimetersPerSecond</name></member>
     <member refid="class_flexy_stepper_1aef8836a5254879ab398ec114a651dac6" kind="function"><name>setAccelerationInMillimetersPerSecondPerSecond</name></member>
     <member refid="class_flexy_stepper_1aeae0996f9f6c6a0ca07e7e00b73c0bf1" kind="function"><name>moveToHomeInMillimeters</name></member>
