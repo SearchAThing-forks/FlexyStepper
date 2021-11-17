@@ -2,7 +2,7 @@
     "name": "iot-flexy-stepper",
     "version": "1.1.0",
     "description": "fork of FlexyStepper by S. Reifel ; Stepper motor control library for Arduino supporting in-motion changes.",
-    "keywords": "lcd,rotary,menu",
+    "keywords": "stepper,arduino,stm32",
     "authors": [
         {
             "name": "Lorenzo Delana",

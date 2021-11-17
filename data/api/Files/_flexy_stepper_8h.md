@@ -17,7 +17,7 @@ title: include/FlexyStepper.h
 
 |                | Name           |
 | -------------- | -------------- |
-| class | **[FlexyStepper](https://github.com/devel0/iot-lcd-rotary/tree/main/data/api/Classes/class_flexy_stepper.md)**  |
+| class | **[FlexyStepper](https://github.com/devel0/iot-flexy-stepper/tree/main/data/api/Classes/class_flexy_stepper.md)**  |
 
 
 
