@@ -1,0 +1,945 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_flexy_stepper" kind="class" language="C++" prot="public">
+    <compoundname>FlexyStepper</compoundname>
+    <includes refid="_flexy_stepper_8h" local="no">FlexyStepper.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_flexy_stepper_1ae0fd30d4577ae4724448704ec6fc2887" prot="private" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte FlexyStepper::stepPin</definition>
+        <argsstring></argsstring>
+        <name>stepPin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="103" column="10" bodyfile="include/FlexyStepper.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_flexy_stepper_1a3f66a5647dab17748f337ee56221511d" prot="private" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte FlexyStepper::directionPin</definition>
+        <argsstring></argsstring>
+        <name>directionPin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="104" column="10" bodyfile="include/FlexyStepper.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_flexy_stepper_1a8654f5419c264b946945fd4c7a78133d" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FlexyStepper::stepsPerMillimeter</definition>
+        <argsstring></argsstring>
+        <name>stepsPerMillimeter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="105" column="11" bodyfile="include/FlexyStepper.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_flexy_stepper_1a43665cdac892a8d965eb53fb56123dae" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FlexyStepper::stepsPerRevolution</definition>
+        <argsstring></argsstring>
+        <name>stepsPerRevolution</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="106" column="11" bodyfile="include/FlexyStepper.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_flexy_stepper_1a378fc020171366dde251bec8c6fd71c1" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FlexyStepper::directionOfMotion</definition>
+        <argsstring></argsstring>
+        <name>directionOfMotion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="107" column="9" bodyfile="include/FlexyStepper.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_flexy_stepper_1af72cb8f9511734c2001e33985f5c3ae1" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long FlexyStepper::currentPosition_InSteps</definition>
+        <argsstring></argsstring>
+        <name>currentPosition_InSteps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="108" column="10" bodyfile="include/FlexyStepper.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_flexy_stepper_1abffc5e61bc4fc07f73709e9094411af7" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long FlexyStepper::targetPosition_InSteps</definition>
+        <argsstring></argsstring>
+        <name>targetPosition_InSteps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="109" column="10" bodyfile="include/FlexyStepper.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_flexy_stepper_1a925d7f8d3740589ca501446aaecf0b61" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FlexyStepper::desiredSpeed_InStepsPerSecond</definition>
+        <argsstring></argsstring>
+        <name>desiredSpeed_InStepsPerSecond</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="110" column="11" bodyfile="include/FlexyStepper.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_flexy_stepper_1acd0d5eec8cf9ac26c71658a5c479ffc8" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FlexyStepper::desiredPeriod_InUSPerStep</definition>
+        <argsstring></argsstring>
+        <name>desiredPeriod_InUSPerStep</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="111" column="11" bodyfile="include/FlexyStepper.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_flexy_stepper_1ac9516c07e0393b2526ea0528bf3dc986" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FlexyStepper::acceleration_InStepsPerSecondPerSecond</definition>
+        <argsstring></argsstring>
+        <name>acceleration_InStepsPerSecondPerSecond</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="112" column="11" bodyfile="include/FlexyStepper.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_flexy_stepper_1a653c5e909e30b3d5705bf2baab4bbb66" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FlexyStepper::acceleration_InStepsPerUSPerUS</definition>
+        <argsstring></argsstring>
+        <name>acceleration_InStepsPerUSPerUS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="113" column="11" bodyfile="include/FlexyStepper.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_flexy_stepper_1ad696da06be25d1d350b974addba2c313" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FlexyStepper::periodOfSlowestStep_InUS</definition>
+        <argsstring></argsstring>
+        <name>periodOfSlowestStep_InUS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="114" column="11" bodyfile="include/FlexyStepper.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_flexy_stepper_1ac1c0ce68b5d1376a436e6b675c20ca51" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FlexyStepper::minimumPeriodForAStoppedMotion</definition>
+        <argsstring></argsstring>
+        <name>minimumPeriodForAStoppedMotion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="115" column="11" bodyfile="include/FlexyStepper.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_flexy_stepper_1a715f4532b818d7f06ede1512c99cdf23" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FlexyStepper::nextStepPeriod_InUS</definition>
+        <argsstring></argsstring>
+        <name>nextStepPeriod_InUS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="116" column="11" bodyfile="include/FlexyStepper.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_flexy_stepper_1a06c592304467438ba65610213bf7cf8a" prot="private" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long FlexyStepper::lastStepTime_InUS</definition>
+        <argsstring></argsstring>
+        <name>lastStepTime_InUS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="117" column="19" bodyfile="include/FlexyStepper.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_flexy_stepper_1a0114ffeaa07571f2f0b44851885ddd53" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FlexyStepper::currentStepPeriod_InUS</definition>
+        <argsstring></argsstring>
+        <name>currentStepPeriod_InUS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="118" column="11" bodyfile="include/FlexyStepper.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_flexy_stepper_1ae6c4a0966360f28edd0e3d598851a1ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FlexyStepper::FlexyStepper</definition>
+        <argsstring>()</argsstring>
+        <name>FlexyStepper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="50" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="class_flexy_stepper_1af6c33620f1e77c486a88f84a1b553dd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FlexyStepper::connectToPins</definition>
+        <argsstring>(byte stepPinNumber, byte directionPinNumber)</argsstring>
+        <name>connectToPins</name>
+        <param>
+          <type>byte</type>
+          <declname>stepPinNumber</declname>
+        </param>
+        <param>
+          <type>byte</type>
+          <declname>directionPinNumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="51" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_flexy_stepper_1a087d71ec57d6e3d49f359577f8f0ccc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FlexyStepper::setStepsPerMillimeter</definition>
+        <argsstring>(float motorStepPerMillimeter)</argsstring>
+        <name>setStepsPerMillimeter</name>
+        <param>
+          <type>float</type>
+          <declname>motorStepPerMillimeter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="53" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_flexy_stepper_1adfcc2935443d15ef0a5ae2cf5b815846" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float FlexyStepper::getCurrentPositionInMillimeters</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrentPositionInMillimeters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="54" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_flexy_stepper_1ac16e23b86de2968bae41089ce2b5481a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FlexyStepper::setCurrentPositionInMillimeters</definition>
+        <argsstring>(float currentPositionInMillimeters)</argsstring>
+        <name>setCurrentPositionInMillimeters</name>
+        <param>
+          <type>float</type>
+          <declname>currentPositionInMillimeters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="55" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_flexy_stepper_1a05a368cbf732c9f97219c83b5c298521" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FlexyStepper::setCurrentPositionInMillimeter</definition>
+        <argsstring>(float currentPositionInMillimeter)</argsstring>
+        <name>setCurrentPositionInMillimeter</name>
+        <param>
+          <type>float</type>
+          <declname>currentPositionInMillimeter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="56" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_flexy_stepper_1aed904cf0863f4982035e5343531dc5c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FlexyStepper::setSpeedInMillimetersPerSecond</definition>
+        <argsstring>(float speedInMillimetersPerSecond)</argsstring>
+        <name>setSpeedInMillimetersPerSecond</name>
+        <param>
+          <type>float</type>
+          <declname>speedInMillimetersPerSecond</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="57" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_flexy_stepper_1aef8836a5254879ab398ec114a651dac6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FlexyStepper::setAccelerationInMillimetersPerSecondPerSecond</definition>
+        <argsstring>(float accelerationInMillimetersPerSecondPerSecond)</argsstring>
+        <name>setAccelerationInMillimetersPerSecondPerSecond</name>
+        <param>
+          <type>float</type>
+          <declname>accelerationInMillimetersPerSecondPerSecond</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="58" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_flexy_stepper_1aeae0996f9f6c6a0ca07e7e00b73c0bf1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FlexyStepper::moveToHomeInMillimeters</definition>
+        <argsstring>(long directionTowardHome, float speedInMillimetersPerSecond, long maxDistanceToMoveInMillimeters, int homeLimitSwitchPin)</argsstring>
+        <name>moveToHomeInMillimeters</name>
+        <param>
+          <type>long</type>
+          <declname>directionTowardHome</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>speedInMillimetersPerSecond</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>maxDistanceToMoveInMillimeters</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>homeLimitSwitchPin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="59" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_flexy_stepper_1a0d9905939ac32f967dedc3c35889ab6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FlexyStepper::moveRelativeInMillimeters</definition>
+        <argsstring>(float distanceToMoveInMillimeters)</argsstring>
+        <name>moveRelativeInMillimeters</name>
+        <param>
+          <type>float</type>
+          <declname>distanceToMoveInMillimeters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="60" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_flexy_stepper_1adcdbbef15aeb837444feb4333daa8069" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FlexyStepper::setTargetPositionRelativeInMillimeters</definition>
+        <argsstring>(float distanceToMoveInMillimeters)</argsstring>
+        <name>setTargetPositionRelativeInMillimeters</name>
+        <param>
+          <type>float</type>
+          <declname>distanceToMoveInMillimeters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="61" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_flexy_stepper_1a88b4e5393fd3e1e3ec3a99e9540431b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FlexyStepper::moveToPositionInMillimeters</definition>
+        <argsstring>(float absolutePositionToMoveToInMillimeters)</argsstring>
+        <name>moveToPositionInMillimeters</name>
+        <param>
+          <type>float</type>
+          <declname>absolutePositionToMoveToInMillimeters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="62" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_flexy_stepper_1af9d9dfbd1616a38cc917c0bd304a5791" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FlexyStepper::setTargetPositionInMillimeters</definition>
+        <argsstring>(float absolutePositionToMoveToInMillimeters)</argsstring>
+        <name>setTargetPositionInMillimeters</name>
+        <param>
+          <type>float</type>
+          <declname>absolutePositionToMoveToInMillimeters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="63" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_flexy_stepper_1ad28291bdc39fc8af60df2cca6f2e2bb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float FlexyStepper::getCurrentVelocityInMillimetersPerSecond</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrentVelocityInMillimetersPerSecond</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="64" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_flexy_stepper_1a5e9c1c1590e10d850107312a55cab549" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FlexyStepper::setStepsPerRevolution</definition>
+        <argsstring>(float motorStepPerRevolution)</argsstring>
+        <name>setStepsPerRevolution</name>
+        <param>
+          <type>float</type>
+          <declname>motorStepPerRevolution</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="66" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_flexy_stepper_1acb42cd920db4da1147882cb63174e44a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FlexyStepper::setCurrentPositionInRevolutions</definition>
+        <argsstring>(float currentPositionInRevolutions)</argsstring>
+        <name>setCurrentPositionInRevolutions</name>
+        <param>
+          <type>float</type>
+          <declname>currentPositionInRevolutions</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="67" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_flexy_stepper_1a52b120fff3f441aad156dea34d7b483d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float FlexyStepper::getCurrentPositionInRevolutions</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrentPositionInRevolutions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="68" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_flexy_stepper_1a410a35d872bc80f787e62adc283171b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FlexyStepper::setSpeedInRevolutionsPerSecond</definition>
+        <argsstring>(float speedInRevolutionsPerSecond)</argsstring>
+        <name>setSpeedInRevolutionsPerSecond</name>
+        <param>
+          <type>float</type>
+          <declname>speedInRevolutionsPerSecond</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="69" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_flexy_stepper_1a19a665365447d04073c03a4508fa1342" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FlexyStepper::setAccelerationInRevolutionsPerSecondPerSecond</definition>
+        <argsstring>(float accelerationInRevolutionsPerSecondPerSecond)</argsstring>
+        <name>setAccelerationInRevolutionsPerSecondPerSecond</name>
+        <param>
+          <type>float</type>
+          <declname>accelerationInRevolutionsPerSecondPerSecond</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="70" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_flexy_stepper_1a7a9584318c9082b272b40d812923ca16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FlexyStepper::moveToHomeInRevolutions</definition>
+        <argsstring>(long directionTowardHome, float speedInRevolutionsPerSecond, long maxDistanceToMoveInRevolutions, int homeLimitSwitchPin)</argsstring>
+        <name>moveToHomeInRevolutions</name>
+        <param>
+          <type>long</type>
+          <declname>directionTowardHome</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>speedInRevolutionsPerSecond</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>maxDistanceToMoveInRevolutions</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>homeLimitSwitchPin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="71" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_flexy_stepper_1a365690aacf505a95a6b9b6e9015ac370" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FlexyStepper::moveRelativeInRevolutions</definition>
+        <argsstring>(float distanceToMoveInRevolutions)</argsstring>
+        <name>moveRelativeInRevolutions</name>
+        <param>
+          <type>float</type>
+          <declname>distanceToMoveInRevolutions</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="72" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_flexy_stepper_1abb509c0cca6e467c28c7a7575ae8c907" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FlexyStepper::setTargetPositionRelativeInRevolutions</definition>
+        <argsstring>(float distanceToMoveInRevolutions)</argsstring>
+        <name>setTargetPositionRelativeInRevolutions</name>
+        <param>
+          <type>float</type>
+          <declname>distanceToMoveInRevolutions</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="73" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_flexy_stepper_1acd57cc3fda23b8a3c53246f83e2fda8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FlexyStepper::moveToPositionInRevolutions</definition>
+        <argsstring>(float absolutePositionToMoveToInRevolutions)</argsstring>
+        <name>moveToPositionInRevolutions</name>
+        <param>
+          <type>float</type>
+          <declname>absolutePositionToMoveToInRevolutions</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="74" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_flexy_stepper_1a13a859436cb2dbdcea76f254ec04198c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FlexyStepper::setTargetPositionInRevolutions</definition>
+        <argsstring>(float absolutePositionToMoveToInRevolutions)</argsstring>
+        <name>setTargetPositionInRevolutions</name>
+        <param>
+          <type>float</type>
+          <declname>absolutePositionToMoveToInRevolutions</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="75" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_flexy_stepper_1a6a8b2f1efb7fffd1a06f7ef5c7c20ee8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float FlexyStepper::getCurrentVelocityInRevolutionsPerSecond</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrentVelocityInRevolutionsPerSecond</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="76" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_flexy_stepper_1affc021dcc46795a5c4fe0ef2355166f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FlexyStepper::setCurrentPositionInSteps</definition>
+        <argsstring>(long currentPositionInSteps)</argsstring>
+        <name>setCurrentPositionInSteps</name>
+        <param>
+          <type>long</type>
+          <declname>currentPositionInSteps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="78" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_flexy_stepper_1ad0a90854d5f2a17ad990b6798801ec8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long FlexyStepper::getCurrentPositionInSteps</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrentPositionInSteps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="79" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_flexy_stepper_1a48ae917d1087bf29e3abe08b6bc64dd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FlexyStepper::setSpeedInStepsPerSecond</definition>
+        <argsstring>(float speedInStepsPerSecond)</argsstring>
+        <name>setSpeedInStepsPerSecond</name>
+        <param>
+          <type>float</type>
+          <declname>speedInStepsPerSecond</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="80" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_flexy_stepper_1a73a84ba6d5d5f26ac44af51c10b527d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FlexyStepper::setAccelerationInStepsPerSecondPerSecond</definition>
+        <argsstring>(float accelerationInStepsPerSecondPerSecond)</argsstring>
+        <name>setAccelerationInStepsPerSecondPerSecond</name>
+        <param>
+          <type>float</type>
+          <declname>accelerationInStepsPerSecondPerSecond</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="81" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_flexy_stepper_1a0c7a8c45bed343953fd1aedab5e9b967" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FlexyStepper::moveToHomeInSteps</definition>
+        <argsstring>(long directionTowardHome, float speedInStepsPerSecond, long maxDistanceToMoveInSteps, int homeSwitchPin)</argsstring>
+        <name>moveToHomeInSteps</name>
+        <param>
+          <type>long</type>
+          <declname>directionTowardHome</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>speedInStepsPerSecond</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>maxDistanceToMoveInSteps</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>homeSwitchPin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="82" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_flexy_stepper_1a3640d5d166bb9708dade5f9d272fe94b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FlexyStepper::moveRelativeInSteps</definition>
+        <argsstring>(long distanceToMoveInSteps)</argsstring>
+        <name>moveRelativeInSteps</name>
+        <param>
+          <type>long</type>
+          <declname>distanceToMoveInSteps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="83" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_flexy_stepper_1a0ea80b3b48750e9a9b94509a9a1b403c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FlexyStepper::setTargetPositionRelativeInSteps</definition>
+        <argsstring>(long distanceToMoveInSteps)</argsstring>
+        <name>setTargetPositionRelativeInSteps</name>
+        <param>
+          <type>long</type>
+          <declname>distanceToMoveInSteps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="84" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_flexy_stepper_1a5f57fd780d0ff7c56647aa5f1c8e72de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FlexyStepper::moveToPositionInSteps</definition>
+        <argsstring>(long absolutePositionToMoveToInSteps)</argsstring>
+        <name>moveToPositionInSteps</name>
+        <param>
+          <type>long</type>
+          <declname>absolutePositionToMoveToInSteps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="85" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_flexy_stepper_1a542001deb1b0b972414a51298f70457e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FlexyStepper::setTargetPositionInSteps</definition>
+        <argsstring>(long absolutePositionToMoveToInSteps)</argsstring>
+        <name>setTargetPositionInSteps</name>
+        <param>
+          <type>long</type>
+          <declname>absolutePositionToMoveToInSteps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="86" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_flexy_stepper_1ae83ef9efabc509d7b2baf43935b647b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FlexyStepper::setTargetPositionToStop</definition>
+        <argsstring>()</argsstring>
+        <name>setTargetPositionToStop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="87" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_flexy_stepper_1a29374db25d5bb5714c319d5c57e3e2e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FlexyStepper::motionComplete</definition>
+        <argsstring>()</argsstring>
+        <name>motionComplete</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="88" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_flexy_stepper_1adcafa58beae47192cd7761d9b5a73c53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float FlexyStepper::getCurrentVelocityInStepsPerSecond</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrentVelocityInStepsPerSecond</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="89" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_flexy_stepper_1af683bb5ea8daf533305c680c0f238977" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FlexyStepper::processMovement</definition>
+        <argsstring>(void)</argsstring>
+        <name>processMovement</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="90" column="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_flexy_stepper_1a3ce90fd63e286187a812496a22beb072" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FlexyStepper::DeterminePeriodOfNextStep</definition>
+        <argsstring>()</argsstring>
+        <name>DeterminePeriodOfNextStep</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/FlexyStepper.h" line="97" column="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="include/FlexyStepper.h" line="45" column="1" bodyfile="include/FlexyStepper.h" bodystart="44" bodyend="119"/>
+    <listofallmembers>
+      <member refid="class_flexy_stepper_1ac9516c07e0393b2526ea0528bf3dc986" prot="private" virt="non-virtual"><scope>FlexyStepper</scope><name>acceleration_InStepsPerSecondPerSecond</name></member>
+      <member refid="class_flexy_stepper_1a653c5e909e30b3d5705bf2baab4bbb66" prot="private" virt="non-virtual"><scope>FlexyStepper</scope><name>acceleration_InStepsPerUSPerUS</name></member>
+      <member refid="class_flexy_stepper_1af6c33620f1e77c486a88f84a1b553dd9" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>connectToPins</name></member>
+      <member refid="class_flexy_stepper_1af72cb8f9511734c2001e33985f5c3ae1" prot="private" virt="non-virtual"><scope>FlexyStepper</scope><name>currentPosition_InSteps</name></member>
+      <member refid="class_flexy_stepper_1a0114ffeaa07571f2f0b44851885ddd53" prot="private" virt="non-virtual"><scope>FlexyStepper</scope><name>currentStepPeriod_InUS</name></member>
+      <member refid="class_flexy_stepper_1acd0d5eec8cf9ac26c71658a5c479ffc8" prot="private" virt="non-virtual"><scope>FlexyStepper</scope><name>desiredPeriod_InUSPerStep</name></member>
+      <member refid="class_flexy_stepper_1a925d7f8d3740589ca501446aaecf0b61" prot="private" virt="non-virtual"><scope>FlexyStepper</scope><name>desiredSpeed_InStepsPerSecond</name></member>
+      <member refid="class_flexy_stepper_1a3ce90fd63e286187a812496a22beb072" prot="private" virt="non-virtual"><scope>FlexyStepper</scope><name>DeterminePeriodOfNextStep</name></member>
+      <member refid="class_flexy_stepper_1a378fc020171366dde251bec8c6fd71c1" prot="private" virt="non-virtual"><scope>FlexyStepper</scope><name>directionOfMotion</name></member>
+      <member refid="class_flexy_stepper_1a3f66a5647dab17748f337ee56221511d" prot="private" virt="non-virtual"><scope>FlexyStepper</scope><name>directionPin</name></member>
+      <member refid="class_flexy_stepper_1ae6c4a0966360f28edd0e3d598851a1ba" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>FlexyStepper</name></member>
+      <member refid="class_flexy_stepper_1adfcc2935443d15ef0a5ae2cf5b815846" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>getCurrentPositionInMillimeters</name></member>
+      <member refid="class_flexy_stepper_1a52b120fff3f441aad156dea34d7b483d" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>getCurrentPositionInRevolutions</name></member>
+      <member refid="class_flexy_stepper_1ad0a90854d5f2a17ad990b6798801ec8a" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>getCurrentPositionInSteps</name></member>
+      <member refid="class_flexy_stepper_1ad28291bdc39fc8af60df2cca6f2e2bb6" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>getCurrentVelocityInMillimetersPerSecond</name></member>
+      <member refid="class_flexy_stepper_1a6a8b2f1efb7fffd1a06f7ef5c7c20ee8" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>getCurrentVelocityInRevolutionsPerSecond</name></member>
+      <member refid="class_flexy_stepper_1adcafa58beae47192cd7761d9b5a73c53" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>getCurrentVelocityInStepsPerSecond</name></member>
+      <member refid="class_flexy_stepper_1a06c592304467438ba65610213bf7cf8a" prot="private" virt="non-virtual"><scope>FlexyStepper</scope><name>lastStepTime_InUS</name></member>
+      <member refid="class_flexy_stepper_1ac1c0ce68b5d1376a436e6b675c20ca51" prot="private" virt="non-virtual"><scope>FlexyStepper</scope><name>minimumPeriodForAStoppedMotion</name></member>
+      <member refid="class_flexy_stepper_1a29374db25d5bb5714c319d5c57e3e2e3" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>motionComplete</name></member>
+      <member refid="class_flexy_stepper_1a0d9905939ac32f967dedc3c35889ab6e" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>moveRelativeInMillimeters</name></member>
+      <member refid="class_flexy_stepper_1a365690aacf505a95a6b9b6e9015ac370" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>moveRelativeInRevolutions</name></member>
+      <member refid="class_flexy_stepper_1a3640d5d166bb9708dade5f9d272fe94b" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>moveRelativeInSteps</name></member>
+      <member refid="class_flexy_stepper_1aeae0996f9f6c6a0ca07e7e00b73c0bf1" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>moveToHomeInMillimeters</name></member>
+      <member refid="class_flexy_stepper_1a7a9584318c9082b272b40d812923ca16" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>moveToHomeInRevolutions</name></member>
+      <member refid="class_flexy_stepper_1a0c7a8c45bed343953fd1aedab5e9b967" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>moveToHomeInSteps</name></member>
+      <member refid="class_flexy_stepper_1a88b4e5393fd3e1e3ec3a99e9540431b0" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>moveToPositionInMillimeters</name></member>
+      <member refid="class_flexy_stepper_1acd57cc3fda23b8a3c53246f83e2fda8a" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>moveToPositionInRevolutions</name></member>
+      <member refid="class_flexy_stepper_1a5f57fd780d0ff7c56647aa5f1c8e72de" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>moveToPositionInSteps</name></member>
+      <member refid="class_flexy_stepper_1a715f4532b818d7f06ede1512c99cdf23" prot="private" virt="non-virtual"><scope>FlexyStepper</scope><name>nextStepPeriod_InUS</name></member>
+      <member refid="class_flexy_stepper_1ad696da06be25d1d350b974addba2c313" prot="private" virt="non-virtual"><scope>FlexyStepper</scope><name>periodOfSlowestStep_InUS</name></member>
+      <member refid="class_flexy_stepper_1af683bb5ea8daf533305c680c0f238977" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>processMovement</name></member>
+      <member refid="class_flexy_stepper_1aef8836a5254879ab398ec114a651dac6" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>setAccelerationInMillimetersPerSecondPerSecond</name></member>
+      <member refid="class_flexy_stepper_1a19a665365447d04073c03a4508fa1342" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>setAccelerationInRevolutionsPerSecondPerSecond</name></member>
+      <member refid="class_flexy_stepper_1a73a84ba6d5d5f26ac44af51c10b527d0" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>setAccelerationInStepsPerSecondPerSecond</name></member>
+      <member refid="class_flexy_stepper_1a05a368cbf732c9f97219c83b5c298521" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>setCurrentPositionInMillimeter</name></member>
+      <member refid="class_flexy_stepper_1ac16e23b86de2968bae41089ce2b5481a" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>setCurrentPositionInMillimeters</name></member>
+      <member refid="class_flexy_stepper_1acb42cd920db4da1147882cb63174e44a" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>setCurrentPositionInRevolutions</name></member>
+      <member refid="class_flexy_stepper_1affc021dcc46795a5c4fe0ef2355166f3" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>setCurrentPositionInSteps</name></member>
+      <member refid="class_flexy_stepper_1aed904cf0863f4982035e5343531dc5c9" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>setSpeedInMillimetersPerSecond</name></member>
+      <member refid="class_flexy_stepper_1a410a35d872bc80f787e62adc283171b0" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>setSpeedInRevolutionsPerSecond</name></member>
+      <member refid="class_flexy_stepper_1a48ae917d1087bf29e3abe08b6bc64dd5" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>setSpeedInStepsPerSecond</name></member>
+      <member refid="class_flexy_stepper_1a087d71ec57d6e3d49f359577f8f0ccc3" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>setStepsPerMillimeter</name></member>
+      <member refid="class_flexy_stepper_1a5e9c1c1590e10d850107312a55cab549" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>setStepsPerRevolution</name></member>
+      <member refid="class_flexy_stepper_1af9d9dfbd1616a38cc917c0bd304a5791" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>setTargetPositionInMillimeters</name></member>
+      <member refid="class_flexy_stepper_1a13a859436cb2dbdcea76f254ec04198c" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>setTargetPositionInRevolutions</name></member>
+      <member refid="class_flexy_stepper_1a542001deb1b0b972414a51298f70457e" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>setTargetPositionInSteps</name></member>
+      <member refid="class_flexy_stepper_1adcdbbef15aeb837444feb4333daa8069" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>setTargetPositionRelativeInMillimeters</name></member>
+      <member refid="class_flexy_stepper_1abb509c0cca6e467c28c7a7575ae8c907" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>setTargetPositionRelativeInRevolutions</name></member>
+      <member refid="class_flexy_stepper_1a0ea80b3b48750e9a9b94509a9a1b403c" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>setTargetPositionRelativeInSteps</name></member>
+      <member refid="class_flexy_stepper_1ae83ef9efabc509d7b2baf43935b647b7" prot="public" virt="non-virtual"><scope>FlexyStepper</scope><name>setTargetPositionToStop</name></member>
+      <member refid="class_flexy_stepper_1ae0fd30d4577ae4724448704ec6fc2887" prot="private" virt="non-virtual"><scope>FlexyStepper</scope><name>stepPin</name></member>
+      <member refid="class_flexy_stepper_1a8654f5419c264b946945fd4c7a78133d" prot="private" virt="non-virtual"><scope>FlexyStepper</scope><name>stepsPerMillimeter</name></member>
+      <member refid="class_flexy_stepper_1a43665cdac892a8d965eb53fb56123dae" prot="private" virt="non-virtual"><scope>FlexyStepper</scope><name>stepsPerRevolution</name></member>
+      <member refid="class_flexy_stepper_1abffc5e61bc4fc07f73709e9094411af7" prot="private" virt="non-virtual"><scope>FlexyStepper</scope><name>targetPosition_InSteps</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
