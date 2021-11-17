@@ -768,6 +768,9 @@ void FlexyStepper::setTargetPositionInSteps(long absolutePositionToMoveToInSteps
 //
 void FlexyStepper::setTargetPositionToStop()
 {
+  if (currentStepPeriod_InUS == 0.0f)
+    return;
+    
   long decelerationDistance_InSteps;
 
   //
