@@ -215,6 +215,7 @@ FlexyStepper::FlexyStepper()
   setAccelerationInStepsPerSecondPerSecond(200.0);
   currentStepPeriod_InUS = 0.0;
   nextStepPeriod_InUS = 0.0;
+  stopIssued = false;
 }
 
 void FlexyStepper::connectToPins(byte stepPinNumber, byte directionPinNumber)
@@ -552,11 +553,13 @@ void FlexyStepper::moveToPositionInSteps(long absolutePositionToMoveToInSteps)
 void FlexyStepper::setTargetPositionInSteps(long absolutePositionToMoveToInSteps)
 {
   targetPosition_InSteps = absolutePositionToMoveToInSteps;
+
+  stopIssued = false;
 }
 
 void FlexyStepper::setTargetPositionToStop()
 {
-  if (currentStepPeriod_InUS == 0.0f)
+  if (currentStepPeriod_InUS == 0.0f || stopIssued)
     return;
 
   long decelerationDistance_InSteps;
@@ -572,6 +575,8 @@ void FlexyStepper::setTargetPositionToStop()
     setTargetPositionInSteps(currentPosition_InSteps + decelerationDistance_InSteps);
   else
     setTargetPositionInSteps(currentPosition_InSteps - decelerationDistance_InSteps);
+
+  stopIssued = true;
 }
 
 bool FlexyStepper::processMovement(void)

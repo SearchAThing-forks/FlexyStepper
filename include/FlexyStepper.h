@@ -363,6 +363,7 @@ private:
   float nextStepPeriod_InUS;
   unsigned long lastStepTime_InUS;
   float currentStepPeriod_InUS;
+  bool stopIssued;
 };
 
 // ------------------------------------ End ---------------------------------
