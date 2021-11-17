@@ -32,7 +32,7 @@ title: FlexyStepper
 |                | Name           |
 | -------------- | -------------- |
 |  | **[FlexyStepper](https://github.com/SearchAThing-forks/FlexyStepper/blob/master/data/api/Classes/class_flexy_stepper.md#function-flexystepper)**()  |
-| void | **[connectToPins](https://github.com/SearchAThing-forks/FlexyStepper/blob/master/data/api/Classes/class_flexy_stepper.md#function-connecttopins)**(byte stepPinNumber, byte directionPinNumber)  |
+| void | **[connectToPins](https://github.com/SearchAThing-forks/FlexyStepper/blob/master/data/api/Classes/class_flexy_stepper.md#function-connecttopins)**(byte stepPinNumber, byte directionPinNumber) <br>connect the stepper object to the IO pins  |
 | void | **[setStepsPerMillimeter](https://github.com/SearchAThing-forks/FlexyStepper/blob/master/data/api/Classes/class_flexy_stepper.md#function-setstepspermillimeter)**(float motorStepPerMillimeter)  |
 | float | **[getCurrentPositionInMillimeters](https://github.com/SearchAThing-forks/FlexyStepper/blob/master/data/api/Classes/class_flexy_stepper.md#function-getcurrentpositioninmillimeters)**()  |
 | void | **[setCurrentPositionInMillimeters](https://github.com/SearchAThing-forks/FlexyStepper/blob/master/data/api/Classes/class_flexy_stepper.md#function-setcurrentpositioninmillimeters)**(float currentPositionInMillimeters)  |
@@ -135,6 +135,13 @@ void connectToPins(
 )
 ```
 
+connect the stepper object to the IO pins 
+
+**Parameters**: 
+
+  * **stepPinNumber** IO pin number for the Step 
+  * **directionPinNumber** IO pin number for the direction bit 
+  * **enablePinNumber** IO pin number for the enable bit (LOW is enabled). set to 0 if enable is not supported 
 
 
 

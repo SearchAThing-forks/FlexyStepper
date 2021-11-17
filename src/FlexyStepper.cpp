@@ -220,13 +220,6 @@ FlexyStepper::FlexyStepper()
   nextStepPeriod_InUS = 0.0;
 }
 
-//
-// connect the stepper object to the IO pins
-//  Enter:  stepPinNumber = IO pin number for the Step
-//          directionPinNumber = IO pin number for the direction bit
-//          enablePinNumber = IO pin number for the enable bit (LOW is enabled)
-//            set to 0 if enable is not supported
-//
 void FlexyStepper::connectToPins(byte stepPinNumber, byte directionPinNumber)
 {
   //
